@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.maru.applink",
+    "sha256_cert_fingerprints":
+    ["8F:9C:06:17:17:AA:57:51:B4:E2:12:8F:DE:76:1D:3C:ED:D0:D9:E1:6B:79:D2:CD:A2:3A:43:F5:AA:21:C2:BA"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://momotori.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.maru.applink",
+    "sha256_cert_fingerprints":
+    ["8F:9C:06:17:17:AA:57:51:B4:E2:12:8F:DE:76:1D:3C:ED:D0:D9:E1:6B:79:D2:CD:A2:3A:43:F5:AA:21:C2:BA"]
+  }
+}]
